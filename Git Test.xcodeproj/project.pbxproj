@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D96064B918EC736900198601 /* CCTest2.m in Sources */ = {isa = PBXBuildFile; fileRef = D96064B818EC736900198601 /* CCTest2.m */; };
 		DCB0710C18E7CCF800F968C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB0710B18E7CCF800F968C6 /* Foundation.framework */; };
 		DCB0710E18E7CCF800F968C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB0710D18E7CCF800F968C6 /* CoreGraphics.framework */; };
 		DCB0711018E7CCF900F968C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB0710F18E7CCF800F968C6 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D96064B718EC736900198601 /* CCTest2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCTest2.h; path = "Git Test/CCTest2.h"; sourceTree = "<group>"; };
+		D96064B818EC736900198601 /* CCTest2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCTest2.m; path = "Git Test/CCTest2.m"; sourceTree = "<group>"; };
 		DCB0710818E7CCF800F968C6 /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB0710B18E7CCF800F968C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DCB0710D18E7CCF800F968C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,6 +88,8 @@
 		DCB070FF18E7CCF800F968C6 = {
 			isa = PBXGroup;
 			children = (
+				D96064B718EC736900198601 /* CCTest2.h */,
+				D96064B818EC736900198601 /* CCTest2.m */,
 				DCB0714018E7D21000F968C6 /* CCTest.h */,
 				DCB0714118E7D21000F968C6 /* CCTest.m */,
 				DCB0711118E7CCF900F968C6 /* Git Test */,
@@ -259,6 +264,7 @@
 				DCB0714218E7D21000F968C6 /* CCTest.m in Sources */,
 				DCB0711818E7CCF900F968C6 /* main.m in Sources */,
 				DCB0712218E7CCF900F968C6 /* CCViewController.m in Sources */,
+				D96064B918EC736900198601 /* CCTest2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +469,7 @@
 				DCB0713C18E7CCF900F968C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCB0713D18E7CCF900F968C6 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +478,7 @@
 				DCB0713F18E7CCF900F968C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
